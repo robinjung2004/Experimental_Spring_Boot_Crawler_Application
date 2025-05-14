@@ -5,9 +5,10 @@ import com.digitalpebble.stormcrawler.bolt.*;
 import com.digitalpebble.stormcrawler.spout.MemorySpout;
 import com.digitalpebble.stormcrawler.tika.ParserBolt;
 import com.digitalpebble.stormcrawler.tika.RedirectionBolt;
+import com.hhn.studyChat.util.bolt.HHNStructuredDataBolt;
+import com.hhn.studyChat.util.bolt.RAGJSONFileWriterBolt;
 import org.apache.storm.topology.TopologyBuilder;
 import org.apache.storm.tuple.Fields;
-import com.hhn.studyChat.bolt.*;
 
 /**
  * Topologie für Web-Crawling

@@ -1,4 +1,4 @@
-package com.hhn.studyChat.bolt;
+package com.hhn.studyChat.util.bolt;
 
 import org.apache.storm.task.OutputCollector;
 import org.apache.storm.task.TopologyContext;

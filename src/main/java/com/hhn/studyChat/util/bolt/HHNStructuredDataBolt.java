@@ -1,4 +1,4 @@
-package com.hhn.studyChat.bolt;
+package com.hhn.studyChat.util.bolt;
 
 import com.digitalpebble.stormcrawler.Metadata;
 import org.apache.storm.task.OutputCollector;
